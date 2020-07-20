@@ -1,0 +1,15 @@
+.sprite {
+    background-image: url('../assets/BlockCSS.png');
+}
+
+.air {
+    background-position: -224px -1488px;
+}
+
+.grass {
+    background-position: 0px 0px;
+}
+
+.quartz {
+    background-position: -48px -1008px;
+}

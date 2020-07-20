@@ -1,0 +1,86 @@
+@import './sprites.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Content */
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  height: 48px;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+}
+
+#main {
+  border: 1px solid black;
+  display: flex;
+  flex: 1;
+}
+
+#contentLeft {
+  flex: 2;
+}
+
+#contentCenter {
+  flex: 5;
+  display: flex;
+}
+
+#contentRight {
+  flex: 1;
+  width: 200px;
+  display: flex;
+}
+
+/* settings */
+
+#settingsBox {
+  background-color: lightgrey;
+  flex: 1;
+}
+
+/* grid */
+
+table {
+  border-top: .5px solid #555555;
+  border-left: .5px solid #555555;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+#gridContainer {
+  flex: 1;
+}
+
+.gridCell {
+  width: 16px;
+  height: 16px;
+}
+
+td {
+  padding: 0;
+  border-right: .5px solid #555555;
+  border-bottom: .5px solid #555555;
+}
